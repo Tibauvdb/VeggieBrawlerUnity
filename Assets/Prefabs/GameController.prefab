@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5723424448094879018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5723424448094879016}
+  - component: {fileID: 5723424448094879017}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5723424448094879016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5723424448094879018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000017344952, y: 0.44157934, z: 0.1450491}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5723424448094879017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5723424448094879018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27709b5ba70484646bf89fc205c0eb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugMode: 1
+  BasePlayerPrefab: {fileID: 4727529448679902241, guid: df350dd400f911242b82794e9edc6459,
+    type: 3}
+  TimeRemaining: 301
+  TimeUntilGameStart: 2
+  TimeToWaitAfterPlayerHasWon: 2
+  Player1SpawnPoint: {fileID: 0}
+  Player2SpawnPoint: {fileID: 0}
+  StartGameText: {fileID: 0}
+  ToDisplayWhenGameStarts: Let's Go
+  Player1: {fileID: 0}
+  Player2: {fileID: 0}
+  SpawnedPlayer1: {fileID: 0}
+  SpawnedPlayer2: {fileID: 0}
+  _winScreenBuildIndex: 3
