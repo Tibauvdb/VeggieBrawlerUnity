@@ -211,15 +211,15 @@ MonoBehaviour:
   _attackColliders:
   - {fileID: 994979344004851625}
   - {fileID: 1937014497765183945}
-  AttackDuration: 0
-  _attackDamageTimeRange: {x: 0, y: 0.5}
+  AttackDuration: 1.1
+  _attackDamageTimeRange: {x: 0.5, y: 1}
   _useAttackMotion: 0
   _specialAttackDamage: 0
   _specialAttackColliders:
   - {fileID: 994979344004851625}
   - {fileID: 1937014497765183945}
-  SpecialAttackDuration: 0
-  _specialAttackDamageTimeRange: {x: 0.5, y: 1}
+  SpecialAttackDuration: 3
+  _specialAttackDamageTimeRange: {x: 1.1, y: 1.2}
   _useSpecialAttackMotion: 0
 --- !u!114 &7936719069270327822
 MonoBehaviour:

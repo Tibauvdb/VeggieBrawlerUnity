@@ -108,7 +108,7 @@ ModelImporter:
       name: Avocado_BasicAttackAnim
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 100
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
