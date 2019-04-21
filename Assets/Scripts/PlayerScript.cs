@@ -7,6 +7,9 @@ using UnityEngine.Assertions;
 [RequireComponent(typeof(PhysicsController))]
 public class PlayerScript : MonoBehaviour
 {
+    [Header("Character Name")]
+    public string CharacterName;
+
     [Header("General")]
     [SerializeField] [Range(1, 2)] private int _playerNumber=1;
     [SerializeField] private int _maxHealth = 0;

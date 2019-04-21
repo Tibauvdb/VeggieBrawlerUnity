@@ -15,9 +15,6 @@ public class WinnerTextScript : MonoBehaviour
 
     private void Update()
         {
-        if (Input.GetButtonDown("Submit"))
-            {
-            SceneManager.LoadScene(_characterSelectBuildIndex);
-            }
+
         }
     }

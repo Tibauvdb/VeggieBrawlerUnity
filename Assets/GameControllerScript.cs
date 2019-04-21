@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngineInternal;
 
 public class GameControllerScript : MonoBehaviour
 {
@@ -18,10 +19,14 @@ public class GameControllerScript : MonoBehaviour
     public int Winner { get; set; }
     public string TimeText { get; set; }
     public bool GameEnded { get; set; }
+
     public Transform Player1SpawnPoint;
     public Transform Player2SpawnPoint;
     public Text StartGameText;
     public string ToDisplayWhenGameStarts;
+
+    public GameObject WinningPlayer { get; set; }
+
     [HideInInspector] public GameObject Player1;
     [HideInInspector] public GameObject Player2;
     [HideInInspector] public GameObject SpawnedPlayer1;
@@ -148,9 +153,12 @@ public class GameControllerScript : MonoBehaviour
     /// <param name="losingPlayerNumber">This player's PlayerNumber</param>
     public void EndGame(int losingPlayerNumber)
     {
+        _gameStarted = false;
         losingPlayerNumber %= 2;
         Winner = losingPlayerNumber + 1;
-        StartCoroutine(EndGameEnumerator()); 
+        StartCoroutine(EndGameEnumerator());
+
+        WinningPlayer = Player1.ToString().Substring(player.ToString().Length - 1) == losingPlayerNumber.ToString() ? Player1 : Player2;
     }
 }
 

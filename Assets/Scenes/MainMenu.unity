@@ -966,9 +966,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _amplitude: {x: -4, y: 4, z: 0}
-  _rotAmplitude: {x: 4, y: 4, z: 0}
+  _rotAmplitude: {x: -1, y: 1, z: 2}
   _frequency: {x: 0.01, y: 0.03, z: 0}
-  _rotFrequency: {x: 0, y: 0, z: 0}
+  _rotFrequency: {x: 0.05, y: 0.01, z: 0.05}
   _offset: 0
   _multiplyOffsetByChildIndex: 0
 --- !u!1 &2111419309
