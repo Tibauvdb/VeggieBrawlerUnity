@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_Fire
+  m_Name: MAT_FireP2
   m_Shader: {fileID: 4800000, guid: f63623f4f0ce0e842b791d35ecfc4a8c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -75,9 +75,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_5A840F5D: {r: 0.4056604, g: 0.082280174, b: 0.119227044, a: 0}
-    - Color_D14A4EC0: {r: 0.6132076, g: 0.27152798, b: 0.2285066, a: 1}
-    - Color_F087D986: {r: 0.4811321, g: 0.111205064, b: 0.1830659, a: 1}
+    - Color_5A840F5D: {r: 0.33468318, g: 0.6509434, b: 0.4724294, a: 0}
+    - Color_D14A4EC0: {r: 0.6915272, g: 0.7924528, b: 0.7555288, a: 1}
+    - Color_F087D986: {r: 0.40784314, g: 0.78039217, b: 0.5022465, a: 1}
     - Vector2_1EBCCCB6: {r: 2.39, g: -0.36, b: 0, a: 0}
     - Vector2_DBD226F: {r: 3.1, g: 0.3, b: 0, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}

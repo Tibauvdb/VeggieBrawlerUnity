@@ -23,6 +23,8 @@ public class PlayerUI : MonoBehaviour
     private CharacterSelectManager _csm;
 
     private GameObject _instantiatedCharacter;
+    private GameObject _currentElement;
+
     void Start()
     {
         _originalBorderPos = Border.anchoredPosition; //Save original UI Pos to Unlerp it if Necessary
@@ -73,7 +75,7 @@ public class PlayerUI : MonoBehaviour
     private void ChooseCharacter()
     {
         GameObject Element = GetElementUnderMouse();
-
+        _currentElement = Element;
         if (Element != null && Element.tag == "CharacterUI" && ChosenCharacter==null)
         {
             ChosenCharacter = Element.GetComponent<CharacterTemplate>().Character;    //Get Gameobject
@@ -83,7 +85,15 @@ public class PlayerUI : MonoBehaviour
             NameSpace.text = Element.GetComponent<CharacterTemplate>().CharacterName;   //Show character name on screen
 
             LoadCharacter(ChosenCharacter);  //Actually visualize the model - can be commented out if you dont want player to be visualized at all
+
+            LoadIcon(Element,true);
         }
+    }
+
+    private void LoadIcon(GameObject element, bool state)
+    {
+        string childName = "P" + PlayerNumber + "_Select";
+        element.transform.Find(childName).GetComponent<Image>().enabled = state;
     }
 
     //Visualizes character on Left/Right Side Of Scene
@@ -120,7 +130,8 @@ public class PlayerUI : MonoBehaviour
         Destroy(_instantiatedCharacter);
         ChosenCharacter = null;
         AllowMouseMovement = true;
-
+        LoadIcon(_currentElement,false);
+        _currentElement = null;
         HideUIElements();
     }
 
