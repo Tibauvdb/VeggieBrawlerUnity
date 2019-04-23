@@ -176,6 +176,7 @@ public class PlayerScript : MonoBehaviour
                     {
                         opponent.TakeDamage(_attackDamage, attackCollider.HitOrigin);
                         hasLandedHit = true;
+                        CameraScript.Shake(1);
                         break;
                     }
                 }
@@ -219,6 +220,7 @@ public class PlayerScript : MonoBehaviour
                     {
                         opponent.TakeDamage(_specialAttackDamage, specialAttackCollider.HitOrigin);
                         hasLandedHit = true;
+                        CameraScript.Shake(1);
                         break;
                     }
                 }
@@ -277,6 +279,11 @@ public class PlayerScript : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawRay(transform.position + Vector3.up, transform.forward);
+    }
+
+    public void ScreenShake()
+    {
+        CameraScript.Shake(1);
     }
 
 }

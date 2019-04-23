@@ -38,6 +38,8 @@ public class AvocadoPlayerScript : MonoBehaviour
     public void ResetFireShader()
     {
         _fireMaterial.SetFloat("Vector1_E1258AB5", lerpValue(_fireMaterial.GetFloat("Vector1_E1258AB5"), .5f));
+        if (_fireMaterial.GetFloat("Vector1_E1258AB5") > 0.49f)
+            _fireMaterial.SetFloat("Vector1_E1258AB5", 1);
     }
 
     private float lerpValue(float lerpThis, float endValue)
