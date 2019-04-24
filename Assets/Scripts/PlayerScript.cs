@@ -32,7 +32,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private bool _useSpecialAttackMotion=false;
 
     public int MaxHealth { get => _maxHealth; }
-    public int Health { get; private set; }
+    public int Health;
     public int PlayerNumber { get => _playerNumber; set => _playerNumber=value; }
 
     private Transform _transform;
@@ -246,6 +246,7 @@ public class PlayerScript : MonoBehaviour
         {
             UseAnimationMotion(false);
             StopCoroutine(_generalAttackCoroutine);
+            _generalAttackCoroutine = null;
         }
 
         //_flinchTimer = 0;

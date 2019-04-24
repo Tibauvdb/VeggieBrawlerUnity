@@ -10,9 +10,8 @@ public class GameUIManager : MonoBehaviour
 
     public Image P1CharacterSprite;
     public Image P2CharacterSprite;
-    public Image P1Health;
-    public Image P2Health;
-
+    public Image[] P1Healths;
+    public Image[] P2Healths;
     public RectTransform EndGameUI;
 
     public GameObject Player1 { get; set; }
@@ -20,7 +19,10 @@ public class GameUIManager : MonoBehaviour
 
     private float _originalP1HealthWidth;
     private float _originalP2HealthWidth;
-    private RectTransform _originalEndGameUIPos;
+
+    private float _orP1HealthWidth;
+    private float _orP2HealthWidth;
+
     void Awake()
     {
         Instance = this;
@@ -37,34 +39,68 @@ public class GameUIManager : MonoBehaviour
     {
         TimeText.text = GameControllerScript.Instance.TimeText; //Get remaining Text from GameController
 
-        SetHealthImageWidth(_originalP1HealthWidth,P1Health.rectTransform,Player1);
-        SetHealthImageWidth(_originalP2HealthWidth,P2Health.rectTransform,Player2);
+        SetHealth(_orP1HealthWidth,P1Healths,Player1);
+        SetHealth(_orP2HealthWidth,P2Healths,Player2);
 
         if(GameControllerScript.Instance.GameEnded)
             ShowEndGameUI();
     }
 
-    //Method that links image scale to player health remaining - can change image color/img around too
-    private void SetHealthImageWidth(float originalWidth,RectTransform health,GameObject player)
+
+    private void SetHealth(float originalWidth,Image[] healths,GameObject player)
     {
-        if (health.localScale.x > 0)
-        {
-            float newWidth = (originalWidth / player.GetComponent<PlayerScript>().MaxHealth) * player.GetComponent<PlayerScript>().Health;
-            health.localScale = new Vector3(newWidth,health.localScale.y,health.localScale.z);
-            if (health.localScale.x < 0)
-                health.localScale = Vector3.Scale(health.localScale, new Vector3(0, 1, 1));
+            
+        int maxHealth;
+        int limit;
+        int widthToChange;
+
+        if (player.GetComponent<PlayerScript>().Health >= 50)
+        { 
+            maxHealth = 100;
+            limit = 50;
+            widthToChange = 0;
+        }        
+        else if (player.GetComponent<PlayerScript>().Health >= 20)
+        { 
+            maxHealth = 50;
+            limit = 20;
+            widthToChange = 1;
+            healths[widthToChange-1].rectTransform.localScale = Vector3.Scale(Vector3.zero, healths[widthToChange - 1].rectTransform.localScale);
         }
+        else
+        { 
+            maxHealth = 20;
+            limit = 0;
+            widthToChange = 2;
+            healths[widthToChange - 1].rectTransform.localScale = Vector3.Scale(Vector3.zero, healths[widthToChange - 1].rectTransform.localScale);
+        }
+
+        float newWidth = (originalWidth / (maxHealth - limit) * (player.GetComponent<PlayerScript>().Health - limit));
+
+        healths[widthToChange].rectTransform.localScale = new Vector3(newWidth, healths[widthToChange].rectTransform.localScale.y, healths[widthToChange].rectTransform.localScale.z);
+              
     }
 
     private void SetVariables()
     {
-        _originalP1HealthWidth = P1Health.rectTransform.localScale.x;
-        _originalP2HealthWidth = P2Health.rectTransform.localScale.x;
+        _orP1HealthWidth = P1Healths[0].rectTransform.localScale.x;
+        _orP2HealthWidth = P2Healths[0].rectTransform.localScale.x;
+        Debug.Log(_originalP1HealthWidth);
+        /*foreach (Image img in P1Healths)
+        {
+            _orP1HealthWidth += img.rectTransform.localScale.x;
+            Debug.Log(_orP1HealthWidth);
+        }
 
+        foreach (Image img in P2Healths)
+        {
+            _orP2HealthWidth += img.rectTransform.localScale.x;
+            Debug.Log(_orP1HealthWidth);
+        }*/
         Player1 = GameControllerScript.Instance.SpawnedPlayer1;
         Player2 = GameControllerScript.Instance.SpawnedPlayer2;
 
-        _originalEndGameUIPos = EndGameUI;
+        //_originalEndGameUIPos = EndGameUI;
     }
 
     private void ShowEndGameUI()

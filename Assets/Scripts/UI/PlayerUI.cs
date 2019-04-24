@@ -102,6 +102,7 @@ public class PlayerUI : MonoBehaviour
         VisSpot.position = spawnSpot.position + VisSpot.parent.position;
         _instantiatedCharacter = Instantiate(chosenChar, VisSpot);
 
+        _instantiatedCharacter.GetComponent<CapsuleCollider>().enabled = false;
         //Code below puts gameobject in specific layer.
         //This allows the renderTexture to see it.
         Transform[] charChildren = _instantiatedCharacter.GetComponentsInChildren<Transform>();
