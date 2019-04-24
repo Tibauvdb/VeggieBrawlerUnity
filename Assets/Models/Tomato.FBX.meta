@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 44cf3363749104c4d95c5e86f349b25f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base HumanHub001
+    100002: Base HumanHub001Bone001
+    100004: Base HumanHub001Bone002
+    100006: Base HumanHub002
+    100008: Base HumanLArm1
+    100010: Base HumanLArm2
+    100012: Base HumanLArmCollarbone
+    100014: Base HumanLArmDigit11
+    100016: Base HumanLArmDigit12
+    100018: Base HumanLArmDigit13
+    100020: Base HumanLArmDigit21
+    100022: Base HumanLArmDigit22
+    100024: Base HumanLArmDigit23
+    100026: Base HumanLArmDigit31
+    100028: Base HumanLArmDigit32
+    100030: Base HumanLArmDigit33
+    100032: Base HumanLArmPalm
+    100034: Base HumanLLeg1
+    100036: Base HumanLLeg2
+    100038: Base HumanLLegAnkle
+    100040: Base HumanLLegDigit11
+    100042: Base HumanRArm1
+    100044: Base HumanRArm2
+    100046: Base HumanRArmCollarbone
+    100048: Base HumanRArmDigit11
+    100050: Base HumanRArmDigit12
+    100052: Base HumanRArmDigit13
+    100054: Base HumanRArmDigit21
+    100056: Base HumanRArmDigit22
+    100058: Base HumanRArmDigit23
+    100060: Base HumanRArmDigit31
+    100062: Base HumanRArmDigit32
+    100064: Base HumanRArmDigit33
+    100066: Base HumanRArmPalm
+    100068: Base HumanRLeg1
+    100070: Base HumanRLeg2
+    100072: Base HumanRLegAnkle
+    100074: Base HumanRLegDigit11
+    100076: Base HumanSpine1
+    100078: Base HumanSpine2
+    100080: Base HumanSpine3
+    100082: Base HumanSpine4
+    100084: Base HumanSpine5
+    100086: //RootNode
+    100088: Tomato
+    400000: Base HumanHub001
+    400002: Base HumanHub001Bone001
+    400004: Base HumanHub001Bone002
+    400006: Base HumanHub002
+    400008: Base HumanLArm1
+    400010: Base HumanLArm2
+    400012: Base HumanLArmCollarbone
+    400014: Base HumanLArmDigit11
+    400016: Base HumanLArmDigit12
+    400018: Base HumanLArmDigit13
+    400020: Base HumanLArmDigit21
+    400022: Base HumanLArmDigit22
+    400024: Base HumanLArmDigit23
+    400026: Base HumanLArmDigit31
+    400028: Base HumanLArmDigit32
+    400030: Base HumanLArmDigit33
+    400032: Base HumanLArmPalm
+    400034: Base HumanLLeg1
+    400036: Base HumanLLeg2
+    400038: Base HumanLLegAnkle
+    400040: Base HumanLLegDigit11
+    400042: Base HumanRArm1
+    400044: Base HumanRArm2
+    400046: Base HumanRArmCollarbone
+    400048: Base HumanRArmDigit11
+    400050: Base HumanRArmDigit12
+    400052: Base HumanRArmDigit13
+    400054: Base HumanRArmDigit21
+    400056: Base HumanRArmDigit22
+    400058: Base HumanRArmDigit23
+    400060: Base HumanRArmDigit31
+    400062: Base HumanRArmDigit32
+    400064: Base HumanRArmDigit33
+    400066: Base HumanRArmPalm
+    400068: Base HumanRLeg1
+    400070: Base HumanRLeg2
+    400072: Base HumanRLegAnkle
+    400074: Base HumanRLegDigit11
+    400076: Base HumanSpine1
+    400078: Base HumanSpine2
+    400080: Base HumanSpine3
+    400082: Base HumanSpine4
+    400084: Base HumanSpine5
+    400086: //RootNode
+    400088: Tomato
+    2100000: 02 - Default
+    2100002: 03 - Default
+    2100004: 07 - Default
+    2100006: 08 - Default
+    4300000: Tomato
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Tomato
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
