@@ -6,4 +6,5 @@ public class CharacterTemplate : MonoBehaviour
 {
     public string CharacterName;
     public GameObject Character;
+    public Transform SpawnPoint;
 }

@@ -84,7 +84,7 @@ public class PlayerUI : MonoBehaviour
 
             NameSpace.text = Element.GetComponent<CharacterTemplate>().CharacterName;   //Show character name on screen
 
-            LoadCharacter(ChosenCharacter);  //Actually visualize the model - can be commented out if you dont want player to be visualized at all
+            LoadCharacter(ChosenCharacter,Element.GetComponent<CharacterTemplate>().SpawnPoint);  //Actually visualize the model - can be commented out if you dont want player to be visualized at all
 
             LoadIcon(Element,true);
         }
@@ -97,8 +97,9 @@ public class PlayerUI : MonoBehaviour
     }
 
     //Visualizes character on Left/Right Side Of Scene
-    private void LoadCharacter(GameObject chosenChar)
+    private void LoadCharacter(GameObject chosenChar,Transform spawnSpot)
     {
+        VisSpot.position = spawnSpot.position + VisSpot.parent.position;
         _instantiatedCharacter = Instantiate(chosenChar, VisSpot);
 
         //Code below puts gameobject in specific layer.

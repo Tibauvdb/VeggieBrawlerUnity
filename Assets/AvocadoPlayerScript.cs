@@ -32,11 +32,13 @@ public class AvocadoPlayerScript : MonoBehaviour
 
     public void LerpFireShader()
     {
+        FireGameobject.GetComponent<TrailRenderer>().emitting = true;
         _fireMaterial.SetFloat("Vector1_E1258AB5", lerpValue(_fireMaterial.GetFloat("Vector1_E1258AB5"), 0));
     }
 
     public void ResetFireShader()
     {
+        FireGameobject.GetComponent<TrailRenderer>().emitting = false;
         _fireMaterial.SetFloat("Vector1_E1258AB5", lerpValue(_fireMaterial.GetFloat("Vector1_E1258AB5"), .5f));
         if (_fireMaterial.GetFloat("Vector1_E1258AB5") > 0.49f)
             _fireMaterial.SetFloat("Vector1_E1258AB5", 1);
