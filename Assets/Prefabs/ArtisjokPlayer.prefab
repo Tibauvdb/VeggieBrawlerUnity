@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4727529448022805211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.97, y: 1, z: 0}
+  m_LocalPosition: {x: -0.97, y: 1.07, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4727529448679902253}
@@ -72,8 +72,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.3743703
-  m_Center: {x: 1.1743703, y: 0.1500001, z: 0}
+  m_Radius: 1.1643276
+  m_Center: {x: 0.97, y: 0.14999962, z: 0}
 --- !u!1 &4727529448421942882
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ MonoBehaviour:
   _dragOnGround: 6
   _dragInAir: 3
   _maximumXZVelocity: 30
-  _jumpHeight: 2
+  _jumpHeight: 1
   _groundCollider: {fileID: 4727529448022805223}
   _mapLayerMask:
     serializedVersion: 2
@@ -290,10 +290,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.3
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Radius: 1.4931014
+  m_Height: 3.9574199
+  m_Direction: 2
+  m_Center: {x: -0.06, y: 1.2649293, z: -0.13762975}
 --- !u!114 &4763263166736024313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 416a47c58b6a35146aff624f274a3c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterSprite: {fileID: 21300000, guid: a0a3676c7676aa645af9f1e472f4a34f, type: 3}
+  CharacterSprite: {fileID: 21300000, guid: 1d696d0ef308bad489fe9c26d4d01d4a, type: 3}
 --- !u!1 &7483743638516657675
 GameObject:
   m_ObjectHideFlags: 0
