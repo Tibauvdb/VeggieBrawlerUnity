@@ -215,8 +215,8 @@ MonoBehaviour:
   _attackColliders:
   - {fileID: 238120545174098689}
   - {fileID: 4602392413906879959}
-  AttackDuration: 3
-  _attackDamageTimeRange: {x: 0.5, y: 3}
+  AttackDuration: 0.5
+  _attackDamageTimeRange: {x: 0.5, y: 1}
   _useAttackMotion: 0
   _specialAttackDamage: 20
   _specialAttackColliders:
