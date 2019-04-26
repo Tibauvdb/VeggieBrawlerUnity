@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1162,7 +1162,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2e6a7101152e7d94e9970117a2ccd91f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a0a3676c7676aa645af9f1e472f4a34f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1948,7 +1948,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '|-|'
+  m_Text: Artisjok
 --- !u!222 &1146132043
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4543,8 +4543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384a709f85767734989dc5b2120e8aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterName: Avocado
-  Character: {fileID: 4727529448679902241, guid: 31c6000eedb54124a917c76a07e5b71a,
+  CharacterName: Artisjok
+  Character: {fileID: 4727529448679902241, guid: 723957c0f02f4e641976fec981ec971a,
     type: 3}
   SpawnPoint: {fileID: 4016467127292187230, guid: 0f5df403ca0b9754a8666f4447768b77,
     type: 3}
