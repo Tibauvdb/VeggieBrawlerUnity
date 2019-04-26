@@ -211,13 +211,11 @@ MonoBehaviour:
   _attackDamage: 5
   _attackColliders:
   - {fileID: 0}
-  - {fileID: 0}
   AttackDuration: 1.1
   _attackDamageTimeRange: {x: 0.5, y: 1}
   _useAttackMotion: 0
   _specialAttackDamage: 20
   _specialAttackColliders:
-  - {fileID: 0}
   - {fileID: 0}
   SpecialAttackDuration: 3
   _specialAttackDamageTimeRange: {x: 1.1, y: 1.2}
