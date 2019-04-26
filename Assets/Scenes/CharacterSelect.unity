@@ -926,7 +926,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '|-|'
+  m_Text: Tomato
 --- !u!222 &351686252
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2863,7 +2863,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Avocadon't
+  m_Text: Tomato
 --- !u!222 &1530951283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3165,7 +3165,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2e6a7101152e7d94e9970117a2ccd91f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72c1456dd9ac378429686ceda3b343df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4043,8 +4043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384a709f85767734989dc5b2120e8aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterName: Avocado
-  Character: {fileID: 4727529448679902241, guid: 31c6000eedb54124a917c76a07e5b71a,
+  CharacterName: Tomato
+  Character: {fileID: 4727529448679902241, guid: 3421e52fc4fa1154597b5aed23be5e0b,
     type: 3}
   SpawnPoint: {fileID: 4016467127292187230, guid: 0f5df403ca0b9754a8666f4447768b77,
     type: 3}
