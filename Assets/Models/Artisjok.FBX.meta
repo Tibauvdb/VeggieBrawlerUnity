@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 5724d280a4b48c843b4a70e67e9318fa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Artisjok_FrontRLegHumerus
+    100004: Artisjok_FrontRLegMetacarpus
+    100006: Artisjok_FrontRLegPhalangesManus
+    100008: Artisjok_FrontRLegRadius
+    100010: Artisjok_FrontRLegScapula
+    100012: Artisjok_Jaw
+    100014: Artisjok_LFemur
+    100016: Artisjok_LHumerus
+    100018: Artisjok_LLargeCannon
+    100020: Artisjok_LMetacarpus
+    100022: Artisjok_LPhalangesManus
+    100024: Artisjok_LPhalanxPrima
+    100026: Artisjok_LRadius
+    100028: Artisjok_LScapula
+    100030: Artisjok_LTibia
+    100032: Artisjok_Neck1
+    100034: Artisjok_Neck2
+    100036: Artisjok_Neck3
+    100038: Artisjok_Neck4
+    100040: Artisjok_Neck5
+    100042: Artisjok_Neck6
+    100044: Artisjok_Pelvis
+    100046: Artisjok_RFemur
+    100048: Artisjok_Ribcage
+    100050: Artisjok_RLargeCannon
+    100052: Artisjok_RPhalanxPrima
+    100054: Artisjok_RTibia
+    100056: Artisjok_Scull
+    100058: Artisjok_Spine1
+    100060: Artisjok_Spine2
+    100062: Artisjok_Spine3
+    100064: Artisjok_Spine4
+    100066: Artisjok_Spine5
+    100068: Artisjok_Spine6
+    100070: Artisjok_Tail1
+    100072: Artisjok_Tail2
+    100074: Artisjok_Tail3
+    100076: Artisjok_Tail4
+    100078: Artisjok_Tail5
+    100080: Artisjok_Tail6
+    100082: Artisjok_Tail7
+    100084: ArtisjokMesh
+    100086: Object001
+    100088: Object002
+    100090: RugPantserMesh
+    400000: //RootNode
+    400002: Artisjok_FrontRLegHumerus
+    400004: Artisjok_FrontRLegMetacarpus
+    400006: Artisjok_FrontRLegPhalangesManus
+    400008: Artisjok_FrontRLegRadius
+    400010: Artisjok_FrontRLegScapula
+    400012: Artisjok_Jaw
+    400014: Artisjok_LFemur
+    400016: Artisjok_LHumerus
+    400018: Artisjok_LLargeCannon
+    400020: Artisjok_LMetacarpus
+    400022: Artisjok_LPhalangesManus
+    400024: Artisjok_LPhalanxPrima
+    400026: Artisjok_LRadius
+    400028: Artisjok_LScapula
+    400030: Artisjok_LTibia
+    400032: Artisjok_Neck1
+    400034: Artisjok_Neck2
+    400036: Artisjok_Neck3
+    400038: Artisjok_Neck4
+    400040: Artisjok_Neck5
+    400042: Artisjok_Neck6
+    400044: Artisjok_Pelvis
+    400046: Artisjok_RFemur
+    400048: Artisjok_Ribcage
+    400050: Artisjok_RLargeCannon
+    400052: Artisjok_RPhalanxPrima
+    400054: Artisjok_RTibia
+    400056: Artisjok_Scull
+    400058: Artisjok_Spine1
+    400060: Artisjok_Spine2
+    400062: Artisjok_Spine3
+    400064: Artisjok_Spine4
+    400066: Artisjok_Spine5
+    400068: Artisjok_Spine6
+    400070: Artisjok_Tail1
+    400072: Artisjok_Tail2
+    400074: Artisjok_Tail3
+    400076: Artisjok_Tail4
+    400078: Artisjok_Tail5
+    400080: Artisjok_Tail6
+    400082: Artisjok_Tail7
+    400084: ArtisjokMesh
+    400086: Object001
+    400088: Object002
+    400090: RugPantserMesh
+    2100000: 'Material #14'
+    2100002: 'Material #13'
+    2100004: 'Material #15'
+    2300000: RugPantserMesh
+    3300000: RugPantserMesh
+    4300000: ArtisjokMesh
+    4300002: RugPantserMesh
+    9500000: //RootNode
+    13700000: ArtisjokMesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #13'
+    second: {fileID: 2100000, guid: bf861d89f73c36a46846bbcebc4fd5a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #14'
+    second: {fileID: 2100000, guid: fc6079a9983f88541b6bcf5ab266e1c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #15'
+    second: {fileID: 2100000, guid: b87cf75762c115140a3ddb1e14d53a9a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
