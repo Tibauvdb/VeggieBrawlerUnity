@@ -329,10 +329,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384a709f85767734989dc5b2120e8aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterName: Avocado
-  Character: {fileID: 4727529448679902241, guid: 31c6000eedb54124a917c76a07e5b71a,
+  CharacterName: Sumelon
+  Character: {fileID: 4727529448679902241, guid: a22a54d86212a5c439d1bfd6d7dae7bf,
     type: 3}
-  SpawnPoint: {fileID: 4016467127292187230, guid: 0f5df403ca0b9754a8666f4447768b77,
+  SpawnPoint: {fileID: 4016467127292187230, guid: 78f24ab68da76494793cce8fd8bd635c,
     type: 3}
 --- !u!114 &80343431
 MonoBehaviour:

@@ -209,7 +209,7 @@ MonoBehaviour:
   _playerNumber: 1
   _maxHealth: 100
   _flinchTime: 0.5
-  _knockbackForce: 10
+  _knockbackForce: 12
   _canControlDuringAttack: 0
   _attackDamage: 5
   _attackColliders:
@@ -446,7 +446,7 @@ PrefabInstance:
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.33
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
@@ -626,7 +626,7 @@ PrefabInstance:
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.3600001
+      value: 2.13
       objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
