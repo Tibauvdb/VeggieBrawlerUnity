@@ -348,7 +348,6 @@ GameObject:
   - component: {fileID: 4727529448679902255}
   - component: {fileID: 4727529448679902254}
   - component: {fileID: 4763263166736024313}
-  - component: {fileID: 2925985295583405413}
   m_Layer: 9
   m_Name: SumelonPlayer
   m_TagString: Untagged
@@ -492,20 +491,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterSprite: {fileID: 21300000, guid: bdcbb9bb92c7fe6409dbae54c1bbba86, type: 3}
---- !u!114 &2925985295583405413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4727529448679902241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de8af900dcbb6c24cb3d9da29e3aa42c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FireGameobject: {fileID: 3977321092408751380}
-  _lerpSpeed: 2
 --- !u!1001 &455486186003388037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -513,6 +498,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4727529448679902253}
     m_Modifications:
+    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Name
+      value: AttackCollider (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -583,11 +573,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.4559
       objectReference: {fileID: 0}
-    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-        type: 3}
-      propertyPath: m_Name
-      value: AttackCollider (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16e9d8a4e5e3111449276ff9b7fccf9d, type: 3}
 --- !u!4 &1202185256805691370 stripped
@@ -615,6 +600,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4727529448679902253}
     m_Modifications:
+    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Name
+      value: AttackCollider (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -670,11 +660,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-        type: 3}
-      propertyPath: m_Name
-      value: AttackCollider (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_Radius
@@ -712,6 +697,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4727529448679902253}
     m_Modifications:
+    - target: {fileID: 100076, guid: daab0b4d176ca8d44bbf7d82e6da7b50, type: 3}
+      propertyPath: m_Name
+      value: sumoloen
+      objectReference: {fileID: 0}
     - target: {fileID: 400076, guid: daab0b4d176ca8d44bbf7d82e6da7b50, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -755,10 +744,6 @@ PrefabInstance:
     - target: {fileID: 400076, guid: daab0b4d176ca8d44bbf7d82e6da7b50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100076, guid: daab0b4d176ca8d44bbf7d82e6da7b50, type: 3}
-      propertyPath: m_Name
-      value: sumoloen
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: daab0b4d176ca8d44bbf7d82e6da7b50, type: 3}
       propertyPath: m_Controller
@@ -807,6 +792,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4727529448679902253}
     m_Modifications:
+    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Name
+      value: AttackCollider
+      objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -862,11 +852,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-        type: 3}
-      propertyPath: m_Name
-      value: AttackCollider
-      objectReference: {fileID: 0}
     - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_Radius
@@ -879,6 +864,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16e9d8a4e5e3111449276ff9b7fccf9d, type: 3}
+--- !u!4 &4188466056704341586 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3232837917238726461}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8621998985854513644 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6591623406352826065, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
@@ -891,9 +882,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8dae885274151d4ab4c021eda0cd55e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &4188466056704341586 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-    type: 3}
-  m_PrefabInstance: {fileID: 3232837917238726461}
-  m_PrefabAsset: {fileID: 0}
