@@ -4546,7 +4546,7 @@ MonoBehaviour:
   CharacterName: Artisjok
   Character: {fileID: 4727529448679902241, guid: 723957c0f02f4e641976fec981ec971a,
     type: 3}
-  SpawnPoint: {fileID: 4016467127292187230, guid: 0f5df403ca0b9754a8666f4447768b77,
+  SpawnPoint: {fileID: 51867534345949903, guid: 72213e2406a38994186337bc83d332b0,
     type: 3}
 --- !u!114 &2133155839
 MonoBehaviour:
