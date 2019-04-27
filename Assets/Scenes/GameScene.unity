@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3341,7 +3341,7 @@ PrefabInstance:
         type: 3}
       propertyPath: BasePlayerPrefab
       value: 
-      objectReference: {fileID: 4727529448679902241, guid: a153b80eb5b0151448f6fb929794a79f,
+      objectReference: {fileID: 4727529448679902241, guid: 31c6000eedb54124a917c76a07e5b71a,
         type: 3}
     - target: {fileID: 5723424448094879017, guid: ada5f4a2b9881974e9e1cdf3ba70845e,
         type: 3}
