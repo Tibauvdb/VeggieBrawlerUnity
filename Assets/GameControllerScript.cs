@@ -56,6 +56,7 @@ public class GameControllerScript : MonoBehaviour
 
     private void Update()
     {
+        CheckIfTimeOver();
        //StartGameText.rectTransform.localScale =  IncreaseUISize(StartGameText.rectTransform,_orScale);
         if (_gameStarted)
         {
@@ -166,6 +167,13 @@ public class GameControllerScript : MonoBehaviour
         }
     }
 
+    private void CheckIfTimeOver()
+    {
+        if (TimeRemaining <= 1)
+        {
+            EndGame(Player1.GetComponent<PlayerScript>().Health > Player2.GetComponent<PlayerScript>().Health ? 2 : 1);
+        }
+    }
     /// <summary>
     /// Call when Player has died - Other player then wins game
     /// </summary>
