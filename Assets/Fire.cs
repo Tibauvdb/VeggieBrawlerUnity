@@ -34,7 +34,8 @@ public class Fire : MonoBehaviour
         {
             foreach (GameObject player in _players)
             {
-                player.GetComponent<PlayerScript>().Health -= _healthLoss;
+                if(GetComponent<MeshRenderer>().material.GetFloat("Vector1_E1258AB5") <0.25f)
+                    player.GetComponent<PlayerScript>().Health -= _healthLoss;
             }
             yield return new WaitForSecondsRealtime(1f);
         }
