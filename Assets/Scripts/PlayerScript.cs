@@ -63,6 +63,8 @@ public class PlayerScript : MonoBehaviour
 
     private void Update()
     {
+
+        Die();
         if (_isDead)
         {
             GameControllerScript.Instance.EndGame(_playerNumber);
@@ -254,7 +256,7 @@ public class PlayerScript : MonoBehaviour
         _physicsController.TakeKnockBack(_knockbackForce, origin);
         _animationsController.TakeDamage();
         Health -= damage;
-        Die();
+ 
         Debug.Log("DAMAGE");
     }
 

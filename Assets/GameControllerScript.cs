@@ -37,9 +37,13 @@ public class GameControllerScript : MonoBehaviour
     private int player = 1;
 
     private bool _gameStarted;
+
+    private Vector3 _orScale;
     // Start is called before the first frame update
     void Awake()
     {
+        _orScale = StartGameText.rectTransform.localScale;
+
         Winner = -1;
 
         CreateInstance(); //create GameControllerScript Instance
@@ -52,6 +56,7 @@ public class GameControllerScript : MonoBehaviour
 
     private void Update()
     {
+       //StartGameText.rectTransform.localScale =  IncreaseUISize(StartGameText.rectTransform,_orScale);
         if (_gameStarted)
         {
             CalculateRemainingTime();
@@ -63,8 +68,22 @@ public class GameControllerScript : MonoBehaviour
     private IEnumerator WaitToStartGame()
     {
         BeforeGameStart();
-        yield return new WaitForSecondsRealtime(TimeUntilGameStart);
+        yield return new WaitForSecondsRealtime(1f);
+        StartGameText.text = "3";
+        yield return new WaitForSecondsRealtime(1f);
+        StartGameText.text = "2";
+        yield return new WaitForSecondsRealtime(1f);
+        StartGameText.text = "1";
+        yield return new WaitForSecondsRealtime(1f);
+        StartGameText.text = "Lets Go";
+        yield return new WaitForSecondsRealtime(.5f);
         StartGame();
+    }
+
+    private Vector3 IncreaseUISize(RectTransform uiScale,Vector3 orScale)
+    {
+        uiScale.localScale = Vector3.Lerp(uiScale.localScale, orScale + Vector3.one, Time.deltaTime * 2);
+        return uiScale.localScale;
     }
 
     private void BeforeGameStart()

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 23019893920702556}
   - component: {fileID: 2018013007009267}
   - component: {fileID: 5364709709610116572}
+  - component: {fileID: 762148151}
   m_Layer: 0
   m_Name: StoveFire
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3163306685258645337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.683821, y: -0.8044089, z: -0.025322437}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.1305, y: 2.1305, z: 2.1305}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -86,8 +87,21 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3163306685258645337}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.8
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &762148151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3163306685258645337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c833950116f7a4bbb7f1302eaf4e62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthLoss: 5
