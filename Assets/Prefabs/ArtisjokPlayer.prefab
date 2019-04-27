@@ -208,14 +208,14 @@ MonoBehaviour:
   _flinchTime: 0.5
   _knockbackForce: 11
   _canControlDuringAttack: 0
-  _attackDamage: 15
+  _attackDamage: 5
   _attackColliders:
   - {fileID: 3934119222223338964}
   - {fileID: 3716912123150590745}
   AttackDuration: 0.8
   _attackDamageTimeRange: {x: 0.5, y: 1}
   _useAttackMotion: 0
-  _specialAttackDamage: 25
+  _specialAttackDamage: 20
   _specialAttackColliders:
   - {fileID: 2013541986551486702}
   - {fileID: 2013541986551486702}
