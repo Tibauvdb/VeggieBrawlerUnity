@@ -202,23 +202,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787e1a8f7d9d158418dc9bf8a3d254e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterName: Smashroom
+  CharacterName: Mushroom
   _playerNumber: 1
   _maxHealth: 100
   _flinchTime: 0.2
   _knockbackForce: 10
   _canControlDuringAttack: 0
-  _attackDamage: 20
+  _attackDamage: 40
   _attackColliders:
   - {fileID: 8145071290096220490}
   AttackDuration: 0.05
-  _attackDamageTimeRange: {x: 0.3, y: 0.5}
+  _attackDamageTimeRange: {x: 0.5, y: 1}
   _useAttackMotion: 0
-  _specialAttackDamage: 30
+  _specialAttackDamage: 60
   _specialAttackColliders:
   - {fileID: 8145071290096220490}
   SpecialAttackDuration: 0.1
-  _specialAttackDamageTimeRange: {x: 0.3, y: 0.6}
+  _specialAttackDamageTimeRange: {x: 1.1, y: 1.2}
   _useSpecialAttackMotion: 0
   Health: 100
 --- !u!114 &7936719069270327822
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _canMoveInAir: 1
-  _acceleration: 30
+  _acceleration: 18
   _dragOnGround: 6
   _dragInAir: 3
   _maximumXZVelocity: 30
@@ -312,11 +312,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8389255191483154436}
     m_Modifications:
-    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-        type: 3}
-      propertyPath: m_Name
-      value: AttackCollider
-      objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -372,25 +367,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 669994126319790026, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Name
+      value: AttackCollider
+      objectReference: {fileID: 0}
     - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_Radius
-      value: 0.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0
+      value: 0.32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16e9d8a4e5e3111449276ff9b7fccf9d, type: 3}
