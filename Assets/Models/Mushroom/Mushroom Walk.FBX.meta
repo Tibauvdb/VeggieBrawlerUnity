@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: c90f0113696060d4d9c4e4b2aab43d01
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AlienHead001
+    100002: AlienHead002
+    100004: AlienHead003
+    100006: AlienLArm003
+    100008: AlienLArm004
+    100010: AlienLArmCollarbone001
+    100012: AlienLArmDigit034
+    100014: AlienLArmDigit035
+    100016: AlienLArmDigit036
+    100018: AlienLArmDigit037
+    100020: AlienLArmDigit038
+    100022: AlienLArmDigit039
+    100024: AlienLArmDigit040
+    100026: AlienLArmDigit041
+    100028: AlienLArmDigit042
+    100030: AlienLArmPalm001
+    100032: AlienLLeg003
+    100034: AlienLLeg004
+    100036: AlienLLegPalm001
+    100038: AlienPelvis001
+    100040: AlienRArm003
+    100042: AlienRArm004
+    100044: AlienRArmCollarbone001
+    100046: AlienRArmDigit034
+    100048: AlienRArmDigit035
+    100050: AlienRArmDigit036
+    100052: AlienRArmDigit037
+    100054: AlienRArmDigit038
+    100056: AlienRArmDigit039
+    100058: AlienRArmDigit040
+    100060: AlienRArmDigit041
+    100062: AlienRArmDigit042
+    100064: AlienRArmPalm001
+    100066: AlienRibcage001
+    100068: AlienRLeg003
+    100070: AlienRLeg004
+    100072: AlienRLegPalm001
+    100074: AlienSpine006
+    100076: AlienSpine007
+    100078: AlienSpine008
+    100080: AlienSpine009
+    100082: AlienSpine010
+    100084: AlienSpine011
+    100086: AlienSpine012
+    100088: AlienSpine013
+    100090: AlienSpine014
+    100092: AlienSpine015
+    100094: AlienSpine1
+    100096: AlienSpine1 1
+    100098: AlienSpine2
+    100100: AlienSpine2 1
+    100102: ChamferCyl002
+    100104: //RootNode
+    400000: AlienHead001
+    400002: AlienHead002
+    400004: AlienHead003
+    400006: AlienLArm003
+    400008: AlienLArm004
+    400010: AlienLArmCollarbone001
+    400012: AlienLArmDigit034
+    400014: AlienLArmDigit035
+    400016: AlienLArmDigit036
+    400018: AlienLArmDigit037
+    400020: AlienLArmDigit038
+    400022: AlienLArmDigit039
+    400024: AlienLArmDigit040
+    400026: AlienLArmDigit041
+    400028: AlienLArmDigit042
+    400030: AlienLArmPalm001
+    400032: AlienLLeg003
+    400034: AlienLLeg004
+    400036: AlienLLegPalm001
+    400038: AlienPelvis001
+    400040: AlienRArm003
+    400042: AlienRArm004
+    400044: AlienRArmCollarbone001
+    400046: AlienRArmDigit034
+    400048: AlienRArmDigit035
+    400050: AlienRArmDigit036
+    400052: AlienRArmDigit037
+    400054: AlienRArmDigit038
+    400056: AlienRArmDigit039
+    400058: AlienRArmDigit040
+    400060: AlienRArmDigit041
+    400062: AlienRArmDigit042
+    400064: AlienRArmPalm001
+    400066: AlienRibcage001
+    400068: AlienRLeg003
+    400070: AlienRLeg004
+    400072: AlienRLegPalm001
+    400074: AlienSpine006
+    400076: AlienSpine007
+    400078: AlienSpine008
+    400080: AlienSpine009
+    400082: AlienSpine010
+    400084: AlienSpine011
+    400086: AlienSpine012
+    400088: AlienSpine013
+    400090: AlienSpine014
+    400092: AlienSpine015
+    400094: AlienSpine1
+    400096: AlienSpine1 1
+    400098: AlienSpine2
+    400100: AlienSpine2 1
+    400102: ChamferCyl002
+    400104: //RootNode
+    2100000: 01 - Default
+    2100002: 03 - Default
+    2100004: 02 - Default
+    2100006: 09 - Default
+    2100008: 08 - Default
+    2100010: 07 - Default
+    4300000: ChamferCyl002
+    7400000: Mushroom Walk
+    9500000: //RootNode
+    13700000: ChamferCyl002
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Mushroom Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d387c178b0a37104eb928b8c4d7637e0,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
