@@ -435,6 +435,7 @@ MonoBehaviour:
   _Menu: {fileID: 100197219}
   _CharSel: {fileID: 100197218}
   _Fight: {fileID: 100197217}
+  _soundChangeSpeedValue: 0.6
 --- !u!4 &100197221
 Transform:
   m_ObjectHideFlags: 0
