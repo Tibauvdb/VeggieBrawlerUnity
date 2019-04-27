@@ -592,10 +592,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4727529448679902253}
     m_Modifications:
-    - target: {fileID: 100086, guid: 039c6c8b229a9914ba44a7812381400f, type: 3}
-      propertyPath: m_Name
-      value: Tomato
-      objectReference: {fileID: 0}
     - target: {fileID: 400086, guid: 039c6c8b229a9914ba44a7812381400f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -639,6 +635,10 @@ PrefabInstance:
     - target: {fileID: 400086, guid: 039c6c8b229a9914ba44a7812381400f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: 039c6c8b229a9914ba44a7812381400f, type: 3}
+      propertyPath: m_Name
+      value: Tomato
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 039c6c8b229a9914ba44a7812381400f, type: 3}
