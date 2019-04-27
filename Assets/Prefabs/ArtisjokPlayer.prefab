@@ -208,7 +208,7 @@ MonoBehaviour:
   _flinchTime: 0.5
   _knockbackForce: 10
   _canControlDuringAttack: 0
-  _attackDamage: 40
+  _attackDamage: 20
   _attackColliders:
   - {fileID: 3934119222223338964}
   - {fileID: 3716912123150590745}
@@ -445,7 +445,7 @@ PrefabInstance:
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06
+      value: -0.151
       objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
@@ -517,6 +517,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AttackCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.30921572
+      objectReference: {fileID: 0}
+    - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.109215975
+      objectReference: {fileID: 0}
+    - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.000000037431175
+      objectReference: {fileID: 0}
+    - target: {fileID: 959788059802964662, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.000000021333763
       objectReference: {fileID: 0}
     - target: {fileID: 1656536703856884079, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
         type: 3}
