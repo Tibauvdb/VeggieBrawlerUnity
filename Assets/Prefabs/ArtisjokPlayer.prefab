@@ -210,8 +210,8 @@ MonoBehaviour:
   _canControlDuringAttack: 0
   _attackDamage: 40
   _attackColliders:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3934119222223338964}
+  - {fileID: 3716912123150590745}
   AttackDuration: 1.1
   _attackDamageTimeRange: {x: 0.5, y: 1}
   _useAttackMotion: 0
@@ -290,10 +290,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.3494856
+  m_Radius: 1.1962044
   m_Height: 3.9574199
-  m_Direction: 2
-  m_Center: {x: -0.059999943, y: 1.408545, z: -0.13762975}
+  m_Direction: 0
+  m_Center: {x: 0.00999999, y: 1.2552638, z: -0.13762975}
 --- !u!114 &4763263166736024313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,6 +494,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16e9d8a4e5e3111449276ff9b7fccf9d, type: 3}
+--- !u!114 &3716912123150590745 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6591623406352826065, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7561325462869548488}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8dae885274151d4ab4c021eda0cd55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7918148409924977413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -563,3 +575,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16e9d8a4e5e3111449276ff9b7fccf9d, type: 3}
+--- !u!114 &3934119222223338964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6591623406352826065, guid: 16e9d8a4e5e3111449276ff9b7fccf9d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7918148409924977413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8dae885274151d4ab4c021eda0cd55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
