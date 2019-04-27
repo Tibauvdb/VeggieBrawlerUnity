@@ -4329,7 +4329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8429f5924f017f343b7f2d7e8f6371fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllowMouseMovement: 0
+  AllowMouseMovement: 1
   PlayerNumber: 2
   Mouse: {fileID: 1453084126}
   VisSpot: {fileID: 527249996}
