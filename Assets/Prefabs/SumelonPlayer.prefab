@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _canMoveInAir: 1
-  _acceleration: 18
+  _acceleration: 30
   _dragOnGround: 6
   _dragInAir: 3
   _maximumXZVelocity: 30
