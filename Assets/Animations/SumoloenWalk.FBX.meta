@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 3853ed62e3416d940a44b8cd7a717eb6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base HumanLCalf001
+    100002: Base HumanLDigit034
+    100004: Base HumanLDigit035
+    100006: Base HumanLDigit036
+    100008: Base HumanLDigit037
+    100010: Base HumanLDigit038
+    100012: Base HumanLDigit039
+    100014: Base HumanLDigit040
+    100016: Base HumanLDigit041
+    100018: Base HumanLDigit042
+    100020: Base HumanLFoot001
+    100022: Base HumanLForearm001
+    100024: Base HumanLPalm001
+    100026: Base HumanLThigh001
+    100028: Base HumanLUpperarm001
+    100030: Base HumanRCalf001
+    100032: Base HumanRDigit034
+    100034: Base HumanRDigit035
+    100036: Base HumanRDigit036
+    100038: Base HumanRDigit037
+    100040: Base HumanRDigit038
+    100042: Base HumanRDigit039
+    100044: Base HumanRDigit040
+    100046: Base HumanRDigit041
+    100048: Base HumanRDigit042
+    100050: Base HumanRFoot001
+    100052: Base HumanRForearm001
+    100054: Base HumanRPalm001
+    100056: Base HumanRThigh001
+    100058: Base HumanRUpperarm001
+    100060: Base HumanSpine001
+    100062: Object014
+    100064: Object015
+    100066: Object016
+    100068: Object017
+    100070: Object018
+    100072: Object019
+    100074: Object020
+    100076: sumoloen001
+    100078: //RootNode
+    400000: Base HumanLCalf001
+    400002: Base HumanLDigit034
+    400004: Base HumanLDigit035
+    400006: Base HumanLDigit036
+    400008: Base HumanLDigit037
+    400010: Base HumanLDigit038
+    400012: Base HumanLDigit039
+    400014: Base HumanLDigit040
+    400016: Base HumanLDigit041
+    400018: Base HumanLDigit042
+    400020: Base HumanLFoot001
+    400022: Base HumanLForearm001
+    400024: Base HumanLPalm001
+    400026: Base HumanLThigh001
+    400028: Base HumanLUpperarm001
+    400030: Base HumanRCalf001
+    400032: Base HumanRDigit034
+    400034: Base HumanRDigit035
+    400036: Base HumanRDigit036
+    400038: Base HumanRDigit037
+    400040: Base HumanRDigit038
+    400042: Base HumanRDigit039
+    400044: Base HumanRDigit040
+    400046: Base HumanRDigit041
+    400048: Base HumanRDigit042
+    400050: Base HumanRFoot001
+    400052: Base HumanRForearm001
+    400054: Base HumanRPalm001
+    400056: Base HumanRThigh001
+    400058: Base HumanRUpperarm001
+    400060: Base HumanSpine001
+    400062: Object014
+    400064: Object015
+    400066: Object016
+    400068: Object017
+    400070: Object018
+    400072: Object019
+    400074: Object020
+    400076: sumoloen001
+    400078: //RootNode
+    2100000: 'Material #30'
+    4300000: sumoloen001
+    7400000: SumelonWalk
+    9500000: //RootNode
+    13700000: sumoloen001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SumelonWalk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
