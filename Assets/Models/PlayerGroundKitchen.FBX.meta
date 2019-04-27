@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a6ce240f35a9c144a19b3bbc4a8cce9
+guid: 5a37cc82bdb2d554ea493dc1600c3b22
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: 01 - Default
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cylinder006
+    4300000: Kitchen
   externalObjects:
   - first:
       type: UnityEngine:Material
